@@ -8,7 +8,7 @@ $.fn.inputVirgo = function (params) {
     var $el = $(el);
     if (params.emptyValue === $el.val()) {
       $el
-        .val(params.text)
+        .val(params.textLabel)
         .addClass(params.className);
     }
     $el
